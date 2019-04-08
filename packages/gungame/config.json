@@ -1,0 +1,6 @@
+{
+  "gameTimeSeconds": 600,
+  "healthOnKill": 0,
+  "respawnTimeSeconds": 8,
+  "restartTimeSeconds": 10
+}

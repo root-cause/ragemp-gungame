@@ -1,0 +1,130 @@
+[
+  [
+    {
+      "Weapon": "WEAPON_RPG",
+      "Name": "RPG",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_MINIGUN",
+      "Name": "Minigun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_SPECIALCARBINE",
+      "Name": "Special Carbine",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_REVOLVER",
+      "Name": "Heavy Revolver",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_SAWNOFFSHOTGUN",
+      "Name": "Sawed-Off Shotgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_MACHETE",
+      "Name": "Machete",
+      "KillsForNext": 1
+    }
+  ],
+  [
+    {
+      "Weapon": "WEAPON_RAILGUN",
+      "Name": "Railgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_COMBATMG",
+      "Name": "Combat MG",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_MUSKET",
+      "Name": "Musket",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_HEAVYSNIPER",
+      "Name": "Heavy Sniper",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_PUMPSHOTGUN",
+      "Name": "Pump Shotgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_KNUCKLE",
+      "Name": "Knuckle Duster",
+      "KillsForNext": 1
+    }
+  ],
+  [
+    {
+      "Weapon": "WEAPON_AUTOSHOTGUN",
+      "Name": "Sweeper Shotgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_COMPACTRIFLE",
+      "Name": "Compact Rifle",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_MINISMG",
+      "Name": "Mini SMG",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_COMPACTLAUNCHER",
+      "Name": "Compact Grenade Launcher",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_DBSHOTGUN",
+      "Name": "Double Barrel Shotgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_POOLCUE",
+      "Name": "Pool Cue",
+      "KillsForNext": 1
+    }
+  ],
+  [
+    {
+      "Weapon": "WEAPON_RPG",
+      "Name": "RPG",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_RAILGUN",
+      "Name": "Railgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_HEAVYSHOTGUN",
+      "Name": "Heavy Shotgun",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_ADVANCEDRIFLE",
+      "Name": "Advanced Rifle",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_APPISTOL",
+      "Name": "AP Pistol",
+      "KillsForNext": 1
+    },
+    {
+      "Weapon": "WEAPON_KNIFE",
+      "Name": "Knife",
+      "KillsForNext": 1
+    }
+  ]
+]
