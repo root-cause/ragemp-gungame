@@ -6,6 +6,8 @@ let timeLeft = 0;
 let timer = null;
 let soundId = -1;
 
+const backTime = 10;
+
 function stopTimer() {
     if (timer) {
         clearInterval(timer);
@@ -21,14 +23,14 @@ function stopTimer() {
 
 mp.events.add("playerEnterColshape", (shape) => {
     if (shape === gameArea) {
-        timeLeft = 10;
+        timeLeft = backTime;
         stopTimer();
     }
 });
 
 mp.events.add("playerExitColshape", (shape) => {
     if (shape === gameArea) {
-        timeLeft = 10;
+        timeLeft = backTime;
         stopTimer();
 
         soundId = mp.game.invoke("0x430386FE9BF80B45"); // GET_SOUND_ID
@@ -40,12 +42,13 @@ mp.events.add("playerExitColshape", (shape) => {
             if (timeLeft >= 1) {
                 mp.game.ui.messages.showMidsizedShard("Outside Game Area", `Return to the ~y~game area~s~, you have ${timeLeft} ${timeLeft > 1 ? "seconds" : "second"}.`, 6, false, false, 1100, false);
             } else {
-                mp.players.local.setHealth(0);
+                mp.events.callRemote("playerOutsideZone", mp.players.local);
+                mp.game.ui.messages.showMidsizedShard("Outside Game Area", `Wasted, ~y~bro~s~.`, 6, false, false, 1100, false);
                 stopTimer();
             }
         }, 1000);
 
-        mp.game.ui.messages.showMidsizedShard("Outside Game Area", `Return to the ~y~game area~s~, you have 10 seconds.`, 6, false, false, 1100, false);
+        mp.game.ui.messages.showMidsizedShard("Outside Game Area", `Return to the ~y~game area~s~, you have ${backTime} ${backTime > 1 ? "seconds" : "second"}.`, 6, false, false, 1100, false);
     }
 });
 
